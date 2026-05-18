@@ -7,5 +7,4 @@ def home():
     return "Welcome to Python Flask!"
 
 if __name__ == '__main__':
-    # Specified port=300 here
     app.run(debug=True, host='0.0.0.0', port=300)
